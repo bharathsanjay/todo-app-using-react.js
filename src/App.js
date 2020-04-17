@@ -8,8 +8,8 @@ import './sty.css'
 class App extends Component{
   state={
     todos: [
-      {id:1, content: 'buy some coke'},
-      {id:2 , content: 'go die'}
+      {id:1, content: 'task 1'},
+      {id:2 , content: 'task 2'}
     ]
   }
 deletetodo =(id)=>{
